@@ -10,4 +10,8 @@ run() {
   docker run thiagopereira/fullcycle
 }
 
+push() {
+  docker push thiagopereira/fullcycle
+}
+
 $1
